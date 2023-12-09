@@ -20,6 +20,10 @@ export const defaultStyle = {
   '::selection': {
     'background-color': 'rgba(3, 102, 214, 0.2)',
   },
+  '.subsq': {
+    'text-indent': '0 !important',
+    'margin-bottom': '10px !important',
+  },
 }
 
 const camelToSnake = (str: string) =>
